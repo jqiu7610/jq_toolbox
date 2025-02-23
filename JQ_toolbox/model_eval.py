@@ -1,5 +1,5 @@
 # model eval
-from .model_training_9 import ModelTraining
+from .model_training import ModelTraining
 import sklearn.metrics as skm
 import json
 import numpy as np

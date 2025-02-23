@@ -1,5 +1,5 @@
 # drift detection
-from .preprocessing_6 import Preprocessing 
+from .preprocessing import Preprocessing 
 import os
 from tqdm import tqdm
 import pandas as pd

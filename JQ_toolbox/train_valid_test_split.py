@@ -1,5 +1,5 @@
 # train valid test split
-from .eda_2 import Exploratory_Data_Analysis
+from .eda import Exploratory_Data_Analysis
 import numpy as np
 from pandas.api.types import is_numeric_dtype
 from tqdm import tqdm

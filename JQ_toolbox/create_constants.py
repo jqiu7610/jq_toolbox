@@ -1,5 +1,5 @@
 # preprocessing
-from .leaky_features_4 import LeakyFeatures
+from .leaky_features import LeakyFeatures
 
 # define class
 class CreateConstants(LeakyFeatures):

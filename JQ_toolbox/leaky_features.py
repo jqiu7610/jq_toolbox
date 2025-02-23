@@ -1,5 +1,5 @@
 # preprocessing
-from .train_valid_test_split_3 import TrainValidTestSplit
+from .train_valid_test_split import TrainValidTestSplit
 from pandas.api.types import is_numeric_dtype
 from sklearn.utils.class_weight import compute_class_weight
 import catboost as cb

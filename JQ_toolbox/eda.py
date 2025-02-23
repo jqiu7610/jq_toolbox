@@ -1,4 +1,4 @@
-from .general_1 import General
+from .general import General
 import numpy as np
 import pandas as pd
 import json

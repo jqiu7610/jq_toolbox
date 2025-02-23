@@ -1,5 +1,5 @@
 # model training
-from .feature_selection_8 import FeatureSelection
+from .feature_selection import FeatureSelection
 import numpy as np
 
 # define class for model training

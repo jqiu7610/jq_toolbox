@@ -24,14 +24,3 @@ class General:
 		pickle.dump(item_to_pickle, open(f'{self.str_dirname_output}/{str_filename}', 'wb'))
 		# return object
 		return self
-
-'''
-cls_gen = General(str_dirname_output='./opt/ml/model',)
-
-cls_gen.create_directory()
-
-cls_gen.pickle_to_file(
-	item_to_pickle=cls_general,
-	str_filename='cls_general.pkl',
-	)
-'''

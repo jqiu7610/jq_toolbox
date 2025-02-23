@@ -1,7 +1,7 @@
 # feature selection
 
 
-from .drift_detection_7 import DriftDetection
+from .drift_detection import DriftDetection
 import numpy as np
 import sklearn.metrics as skm
 import pickle
